@@ -9,7 +9,7 @@
                 <!-- Nav Links -->
                 <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
                     <li><a class="hover:text-gray-200" href="/">Home</a></li>
-                    <li><a class="hover:text-gray-200" href="/about">About</a></li>
+                    <!-- <li><a class="hover:text-gray-200" href="/about">About</a></li> -->
                     <!-- <li><a class="hover:text-gray-200" href="/blog">Blog</a></li> -->
                     <li><a class="hover:text-gray-200" href="/cards-or-diablo">CoD</a></li>
                     <li><a class="hover:text-gray-200" href="/contact">Contact Me</a></li>
@@ -26,7 +26,7 @@
 
     </section>
 </div>
-<div class="absolute bottom-0 right-0 mb-4 mr-4 z-10">
+<div class="absolute bottom-0 right-0 mb-20 mr-4 z-10">
     <div>
         <a title="View the PAT stack" href="https://github.com/cwarren714/chandler-site" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
             <img class="object-cover object-center w-full h-full rounded-full" src="./assets/github-mark.svg" />
