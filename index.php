@@ -9,13 +9,8 @@
 
 <body>
   <h1 class="text-3xl font-bold underline text-red-400">
-    Tailwind is working!
+    The PAT is coming soon`!
   </h1>
-  <div x-data="{ count: 0 }">
-    <button x-on:click="count++">Increment, cause Alpine is working</button>
-
-    <span x-text="count"></span>
-  </div>
 </body>
 
 </html>
