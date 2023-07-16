@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<!-- Default to dark darkMode, but watch and store changes in local storage -->
 <html lang="en" x-data="{
       darkMode: localStorage.getItem('darkMode')
-      || localStorage.setItem('darkMode', 'dark)}" x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))" x-bind:class="{'dark': darkMode === 'dark' || (darkMode === 'dark && window.matchMedia('(prefers-color-scheme: dark)').matches)}">
+      || localStorage.setItem('darkMode', 'dark')}" x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))" x-bind:class="{'dark': darkMode === 'dark' || (darkMode === 'dark' && window.matchMedia('(prefers-color-scheme: dark)').matches)}">
 
 <head>
     <meta charset="UTF-8">
