@@ -1,8 +1,12 @@
 <?php include './components/header.php'; ?>
 
 <body class="bg-gray-100 dark:bg-gray-800 dark:text-slate-300 w-full">
-    <article class="flex justify-center max-w-xl mx-auto mt-5 text-justify">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec lectus neque. Morbi eu odio sed metus ultrices laoreet et vitae nibh. Ut faucibus neque venenatis euismod ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur eget ligula elit. Proin imperdiet turpis vel posuere eleifend. Ut risus ligula, ullamcorper at urna a, tempor hendrerit lacus. Praesent purus risus, scelerisque non porttitor et, tempus in metus. Integer lobortis eros a orci volutpat, et porta nulla dapibus. Pellentesque lectus augue, rutrum id ipsum quis, placerat bibendum nunc. Donec ultricies, mauris eleifend vestibulum mollis, dolor turpis laoreet est, ut pretium ante sem ac ante. </p>
+    <article class="flex max-w-xl mx-auto mt-5 text-justify">
+        <p>Welcome to my personal site. It uses the <strong>PAT</strong> stack and is served from a <a class="text-blue-400" target="_blank" href="https://libre.computer/products/aml-s905x-cc/">Le Potato</a> in my basement. You can read up on the PAT stack by clicking the Github link at the bottom of the page or by viewing <a target="_blank" href="https://github.com/cwarren714/chandler-site" class="text-blue-400">its repo</a>.</p>
+    </article>
+
+    <article class="flex max-w-xl mx-auto mt-5 text-justify">
+        <p>You can also read up on whether I'm playing <a href="/cards-or-diablo" class="text-blue-400">cards or diablo</a>. </p>
     </article>
 </body>
 

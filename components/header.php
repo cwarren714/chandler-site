@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<!-- Default to dark darkMode, but watch and store changes in local storage -->
-<html lang="en" x-data="{
-      darkMode: localStorage.getItem('darkMode')
-      || localStorage.setItem('darkMode', 'dark')}" x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))" x-bind:class="{'dark': darkMode === 'dark' || (darkMode === 'dark' && window.matchMedia('(prefers-color-scheme: dark)').matches)}">
+<script>
+    // get the localStorage if it exists, otherwise default to dark
+    const setDarkMode = () => {
+        return localStorage.getItem('darkMode') ? localStorage.getItem('darkMode') : 'dark';
+    }
+</script>
+<html lang="en" x-data="{darkMode: setDarkMode()}" x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))" x-bind:class="{'dark': darkMode === 'dark' }">
 
 <head>
     <meta charset="UTF-8">

@@ -1,7 +1,7 @@
 <nav class="max-w-xl mx-auto mt-3">
     <div class="flex justify-center">
         <a href="/">
-            <h1 class="mx-4">CW</h1>
+            <h1 class="mx-5 hover:text-slate-100"><strong>C W</strong></h1>
         </a>
         <div x-show="darkMode == 'dark'">
             <button x-on:click="darkMode = 'light'">
