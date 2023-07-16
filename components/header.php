@@ -2,7 +2,11 @@
 <script>
     // get the localStorage if it exists, otherwise default to dark
     const setDarkMode = () => {
-        return localStorage.getItem('darkMode') ? localStorage.getItem('darkMode') : 'dark';
+        let mode = localStorage.getItem('darkMode');
+        if (mode === 'system') {
+            localStorage.setItem('darkMode', 'dark');
+        }
+        return mode ? mode : 'dark';
     }
 </script>
 <html lang="en" x-data="{darkMode: setDarkMode()}" x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))" x-bind:class="{'dark': darkMode === 'dark' }">
