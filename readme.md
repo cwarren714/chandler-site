@@ -3,10 +3,10 @@
 #### PAT Stack
 My site uses the fabled **PAT** stack, named after my family friend Pat:
 - ***P**HP*, the one true web dev language
-- ***A**lpine.js*, for interactivity
-- ***T**ailwindCSS*, for styling
+- ***A**lpine.js*, for dark/light mode 
+- ***T**ailwindCSS*, for easy styling
 
-*But why use the PAT stack when there are so many other options?* Besdies Pat being my friend, there's no build process, no webpack, no hot reload, no real advantages. The PAT stack is just the sheer brute force of HTML and PHP hurled across the internet like God intended. 
+*But why use the PAT stack when there are so many other options?* Besides Pat being my friend, there's no build process, no webpack, no hot reload, no real advantages. The PAT stack is just the sheer brute force of HTML and PHP hurled across the internet like God intended. 
 
 #### Local Development
 
